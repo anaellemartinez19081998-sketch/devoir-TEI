@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT TEI (teiHeader, text)>
+
+<!ELEMENT teiHeader (fileDesc, encodingDesc, profileDesc)>
+<!ELEMENT fileDesc (titleStmt, sourceDesc)>
+<!ELEMENT titleStmt (title, author)>
+
+
+<!ELEMENT encodingDesc (projectDesc) >
+<!ELEMENT projectDesc (p,respStmt?) >
+<!ELEMENT respStmt (resp, name)>
+
+<!ELEMENT sourceDesc (bibl+)>
+<!ELEMENT bibl (author, title, respStmt*, publicationStmt)>
+<!ELEMENT publicationStmt (publisher, date, idno?)>
+<!ATTLIST idno type (ISBN|ISSN|DOI|URI|VIAF|ESTC|OCLC) #IMPLIED >
+
+<!ATTLIST respStmt type (editor | translator) #REQUIRED>
+
+<!ELEMENT profileDesc (correspDesc)>
+
+<!ELEMENT correspDesc (correspAction+, correspContext?)>
+<!ELEMENT correspAction (persName?, placeName?, date?)>
+
+
+<!ATTLIST correspAction type (sent | received) #REQUIRED>
+
+<!ELEMENT text (body)>
+
+<!ELEMENT body (opener?, p+, closer?)>
+
+<!ELEMENT opener (dateline, salute?)>
+
+<!ELEMENT dateline (placeName, date)>
+
+<!ELEMENT closer (signed?)>
+
+
+<!ELEMENT p (#PCDATA | persName | placeName | cit | del)*>
+
+<!ELEMENT salute (#PCDATA)>
+<!ELEMENT signed (#PCDATA | persName)*>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT resp (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT persName (#PCDATA)>
+<!ELEMENT placeName (#PCDATA)>
+<!ELEMENT cit (#PCDATA) >
+<!ELEMENT date (#PCDATA)> 
+<!ELEMENT idno (#PCDATA) >
+<!ELEMENT correspContext (#PCDATA)>
+<!ELEMENT del (#PCDATA) >

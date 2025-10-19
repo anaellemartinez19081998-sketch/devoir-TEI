@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "kafka.dtd">
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+                <author></author>
+            </titleStmt>          
+            <sourceDesc>
+                <bibl>
+                    <author></author>
+                    <title></title>
+                    <respStmt type="translator">
+                        <resp></resp>
+                        <name></name>
+                    </respStmt>
+                    <publicationStmt>
+                        <publisher></publisher>
+                        <date></date>
+                        <idno type="ISBN"></idno>
+                    </publicationStmt>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+                <respStmt type="editor">
+                    <resp></resp>
+                    <name></name>
+                </respStmt>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName> </persName>
+                    <placeName> </placeName>
+                    <date></date>
+                </correspAction>
+                <correspContext> </correspContext>
+            </correspDesc>
+        </profileDesc> 
+    </teiHeader>
+    <text>
+        <body>
+            <opener> 
+                <dateline>
+                    <placeName></placeName>
+                    <date> </date>
+                </dateline>
+                <salute> </salute>
+            </opener>
+            <p></p>
+            <closer>
+                <signed>
+                    <persName></persName>
+                </signed>
+            </closer>
+        </body>
+    </text>
+</TEI>
