@@ -68,8 +68,8 @@ your physical presence is wearing off as the days go by. If only
 you were already here! As it is I have no one, no one here
 except the fear, together we roll through the nights locked in
 each other's arms. This fear is really something very serious
-which strangely enough was always only directed at the future,
-no, that's not right. Moreover, it is partly explained by the fact
+<del> which strangely enough was always only directed at the future,
+no, that's not right </del>. Moreover, it is partly explained by the fact
 that it constantly forces me to realize I must admit-and this
 is a great confession-that Milena, too, is only human. What
 you say about this is really very beautiful and kind-having
