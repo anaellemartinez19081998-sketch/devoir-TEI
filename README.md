@@ -6,6 +6,7 @@ This project focuses on three letters written by Franz Kafka to Milena Jesenská
 - quotes or references to other works (Kafka mentions the novella  « Murderers » in the first letter)
 - mention of other people (References to « Vlasta » or  « Illový »)
 - standard letter format (salute, signature)
+
 These are some of the elements I wanted to highlight with the XML format. The use of XML and TEI, which I tried to follow, uses elements to explain the context and history behind a piece like explaining who wrote the letter, who transcribed it, who translated it, and so on. The metadata gives additional information about the source material that is very informative for the preservation of the data, but also for the comprehension of the document. 
 XML also provides data that is durable and useful for future research by querying and filtering through tags. 
 
