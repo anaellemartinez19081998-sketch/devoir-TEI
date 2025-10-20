@@ -10,4 +10,4 @@ This project focuses on three letters written by Franz Kafka to Milena Jesenská
 These are some of the elements I wanted to highlight with the XML format. The use of XML and TEI, which I tried to follow, uses elements to explain the context and history behind a piece like explaining who wrote the letter, who transcribed it, who translated it, and so on. The metadata gives additional information about the source material that is very informative for the preservation of the data, but also for the comprehension of the document. 
 XML also provides data that is durable and useful for future research by querying and filtering through tags. 
 
-I used AI to clarify the use of ATTLIST which I did not fully understand before. I also asked to define <encodingDesc>, and the difference between <cit> and <quote>. However, all the structure is my own understanding and writing. 
+I used AI to clarify the use of ATTLIST which I did not fully understand before. I also asked to define encodingDesc, and the difference between cit and quote. However, all the structure is my own understanding and writing. 
