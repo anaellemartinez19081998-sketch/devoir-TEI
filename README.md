@@ -1,6 +1,6 @@
 # devoir-TEI
 Assignment 1 (15%)
-This project focuses on three letters written by Franz Kafka to Milena Jesenská, from the book « Franz Kafka, letters to Milena », translated and with an introduction by Philip Boehm. I chose these letters not only because I enjoy Kafka’s work and the vulnerability he displays in those letters, but also because those letters are adequate for this XML exercise. The three letters ; from Meran (April 1920), Prague (September 14, 1920), and Prague (October 22, 1920), by themselves, contain different elements :
+This project focuses on three letters written by Franz Kafka to Milena Jesenská, from the book « Franz Kafka, letters to Milena », translated and with an introduction by Philip Boehm. I chose these letters not only because I enjoy Kafka’s work and the vulnerability he displays in those letters, but also because those letters are adequate for this XML exercise. The three letters ; from Meran (April 1920), Prague, (July 15 1920), and Prague (October 22, 1920), by themselves, contain different elements :
 - geographical references, (Vienna, Franzensquai)
 - dates, 
 - quotes or references to other works (Kafka mentions the novella  « Murderers » in the first letter)
