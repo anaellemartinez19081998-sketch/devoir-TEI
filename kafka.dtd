@@ -7,7 +7,7 @@
 
 
 <!ELEMENT encodingDesc (projectDesc) >
-<!ELEMENT projectDesc (p,respStmt?) >
+<!ELEMENT projectDesc (p*,respStmt?) >
 <!ELEMENT respStmt (resp, name)>
 
 <!ELEMENT sourceDesc (bibl+)>
@@ -19,7 +19,7 @@
 
 <!ELEMENT profileDesc (correspDesc)>
 
-<!ELEMENT correspDesc (correspAction+, correspContext?)>
+<!ELEMENT correspDesc (correspAction?, correspContext?)>
 <!ELEMENT correspAction (persName?, placeName?, date?)>
 
 
